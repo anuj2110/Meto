@@ -1,4 +1,3 @@
-import cv2
 from keras.models import load_model,Model
 from keras.applications import ResNet50
 from keras.layers import Dense
