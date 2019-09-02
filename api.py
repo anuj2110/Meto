@@ -33,7 +33,7 @@ def prepare_image(image, target):
     # return the processed image
     return face
 app = Flask(__name__)
-@app.route("/predict",methods=["GET","POST"])
+@app.route("/",methods=["GET","POST"])
 def predict():
     data = {"success":False}
     if request.method == "POST":
