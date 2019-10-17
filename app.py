@@ -6,6 +6,7 @@ import io
 import numpy as np 
 from keras.preprocessing.image import img_to_array
 from keras.applications import imagenet_utils
+import cv2
 
 model = get_full_model()
 model.load_weights("bmi_model_weights.h5")
