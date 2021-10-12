@@ -11,4 +11,4 @@ pandas==0.25.1
 tensorflow==1.14.0
 keras==2.2.4
 pillow==6.1.0
-opencv-python==4.1.0.25
+opencv-python==4.2.0.32
